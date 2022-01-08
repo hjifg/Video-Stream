@@ -37,15 +37,15 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 البشمبرمج فوزي", url=f"https://t.me/U_K_G"
+                        "👥 البشمبرمج فوديكا", url=f"https://t.me/vod_ik_ax"
                     ),
                     InlineKeyboardButton(
-                        "📣 قناة السورس", url=f"https://t.me/music_Desha1"
+                        "📣 قناة السورس", url=f"https://t.me/GH_OS_T_M1"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 البشمبرمج ديشا", url="https://t.me/DeshaXBlacck"
+                        "🌐 البشمبرمج عمر", url="https://t.me/UU_O_M_AR"
                     )
                 ],
             ]
