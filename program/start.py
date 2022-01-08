@@ -75,7 +75,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 البشمبرمج عمر", url=f"https://t.me/UU_O_M_AR"
+                        "👥 المطور فوديكا", url=f"https://t.me/vod_ik_ax"
                     ),
                     InlineKeyboardButton(
                         "📣 قناة البوت", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 البشمبرمج فوديكا", url="https://t.me/vod_ik_ax"
+                        "🌐 البشمبرمج عمر", url="https://t.me/UU_O_M_AR"
                     )
                 ],
             ]
@@ -125,7 +125,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `البينج مظبوط يعمر!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `البينج مظبوط يعمر🚶‍♂️🙂😂!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}", "بوت"]) & ~filters.edited)
