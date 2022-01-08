@@ -75,7 +75,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 البشمبرمج عمر", url=f"https://t.me/U_K_G"
+                        "👥 البشمبرمج عمر", url=f"https://t.me/UU_O_M_AR"
                     ),
                     InlineKeyboardButton(
                         "📣 قناة البوت", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 البشمبرمج ديشا", url="https://t.me/DeshaXBlacck"
+                        "🌐 البشمبرمج فوديكا", url="https://t.me/vod_ik_ax"
                     )
                 ],
             ]
@@ -103,9 +103,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ البشمبرمج ديشا", url=f"https://t.me/DeshaXBlacck"),
+                InlineKeyboardButton("✨ البشمبرمج عمر", url=f"https://t.me/UU_O_M_AR"),
                 InlineKeyboardButton(
-                    "📣 قناة السورس", url=f"https://t.me/music_Desha1"
+                    "📣 قناة السورس", url=f"https://t.me/GH_OS_T_M1"
                 ),
             ]
         ]
@@ -125,7 +125,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `البينج مظبوط يديشا!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `البينج مظبوط يعمر!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}", "بوت"]) & ~filters.edited)
@@ -153,9 +153,9 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/music_Desha1"),
-                            InlineKeyboardButton("💭 البشمبرمج ديشاا", url=f"https://t.me/DeshaXBlacck")
-                        ],
+                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/GH_OS_T_M1"),
+                            InlineKeyboardButton("💭 البشمبرمج عمر", url=f"https://t.me/UU_O_M_AR")
+                        ]
                         [
                             InlineKeyboardButton("👤 حساب المساعد", url=f"https://t.me/{ass_uname}")
                         ]
