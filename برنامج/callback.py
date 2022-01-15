@@ -40,7 +40,7 @@ async def cbstart(_, query: CallbackQuery):
                         "👥 البشمبرمج فوديكا", url=f"https://t.me/vod_ik_ax"
                     ),
                     InlineKeyboardButton(
-                        "📣 قناة السورس", url=f"https://t.me/GH_OS_T_M1"
+                        "📣 قناة السورس" ، url = f "https://t.me/vodik0"
                     ),
                 ],
                 [
